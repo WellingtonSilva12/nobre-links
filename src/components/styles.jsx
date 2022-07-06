@@ -85,7 +85,7 @@ export const FooterParagraph = styled.p`
   font-size: 1.2rem;
   font-weight: 600;
   color: rgba(0, 8, 47, 0.74);
-  margin-top: 10rem;
+  margin-top: 7rem;
 
   a{
     text-decoration: none;
