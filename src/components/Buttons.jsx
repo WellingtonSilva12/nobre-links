@@ -16,9 +16,7 @@ const Buttons = () => {
       <Button>
         <a href="https://www.instagram.com/nobrestamp/" target='blank'><i class='bx bxl-instagram' ></i> Instagram</a>
       </Button>
-      <Button>
-        <a href="https://www.instagram.com/nobrestamp/" target='blank'><i class='bx bxs-location-plus' ></i> localização</a>
-      </Button>
+
     </div>
   )
 }
