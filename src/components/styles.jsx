@@ -19,7 +19,7 @@ export const Wrapper = styled.section`
     width: 12rem;
 
     border-radius: 50%;
-    background: linear-gradient(315deg, #00ccff, #d400d4);
+    background: linear-gradient(315deg, rgb(0, 204, 255), rgb(212, 0, 212));
     margin-bottom: 1.2rem;
 
     img {
