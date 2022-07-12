@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-
 export const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
@@ -59,24 +58,29 @@ export const Button = styled.button`
   background-color: #aa7fe2;
   border: none;
   border-radius: 0.8rem;
-  
+
   color: #fff;
   font-size: 1.8rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  
+
   padding: 1rem 4.5rem;
   margin-top: 1.5rem;
   cursor: pointer;
+
+  transition: all 0.4s ease;
   i {
     position: absolute;
     left: 35px;
 
     align-items: center;
     justify-content: space-between;
-    
+
     font-size: 2.2rem;
+  }
+  &:hover {
+    background-color: #764eaa;
   }
 `
 
@@ -87,12 +91,11 @@ export const FooterParagraph = styled.p`
   color: rgba(0, 8, 47, 0.74);
   margin-top: 7rem;
 
-  a{
+  a {
     text-decoration: none;
     color: inherit;
-    &:hover{
+    &:hover {
       text-decoration: underline;
     }
   }
-
 `
