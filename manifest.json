@@ -1,8 +1,8 @@
 {
   "name": "Nobre Links",
   "short_name": "NLinks",
-  "theme_color": "#ff0000",
-  "background_color": "#ff0000",
+  "theme_color": "#ecdffe",
+  "background_color": "#ecdffe",
   "display": "standalone",
   "Scope": "/index.html",
   "start_url": "/",
